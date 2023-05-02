@@ -6,7 +6,7 @@ window.onscroll = () => {
   let bootstrapBar = document.getElementById('bootstrap-bar');
   let javaScriptBar = document.getElementById('javascript-bar');
   if(window.scrollY < 300){
-    for(i = 2; i >= 0 ; i--){
+    for(i = 3; i >= 1 ; i--){
       introductionSpan[i].style.marginLeft = '-100vw';
       introductionSpan[i].style.transition = `all ${i}s`;
     }
@@ -17,7 +17,7 @@ window.onscroll = () => {
   }else{
     introductionElement.style.opacity = 1;
     introductionElement.style.transition = 'opacity .5s';
-    for(i = 0; i < 3; i++){
+    for(i = 1; i < 4; i++){
       introductionSpan[i].style.marginLeft = '1vw';
       introductionSpan[i].style.transition = `all ${i+1}s`;
     }
