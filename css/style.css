@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-:root{
---color: #333; 
+:root {
+  --color: #333;
 }
 
 body {
@@ -28,7 +28,8 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
-.container-sub-2{
+
+.container-sub-2 {
   background-image: url(../images/bg-2.jpeg);
   background-position: center;
   background-attachment: fixed;
@@ -36,26 +37,35 @@ body {
   background-size: cover;
   height: 100vh;
 }
-.introduction span, .contact span{
+
+.introduction span,
+.contact span {
   font-size: 10vw;
 }
-.skill-list h1{
+
+.skill-list h1 {
   font-size: 8vw;
 }
-.skill-bar{
-  margin-top: 8vw;
+
+.skill-bar {
+  margin-top: 5vw;
 }
-.skill-bar a, .contact p{
+
+.skill-bar a,
+.contact p {
   font-size: 4vw;
 }
-.progress-bar{
+
+.progress-bar {
   font-size: 3vw;
 }
-#navbar{
+
+#navbar {
   height: 10vw;
   font-size: 3vw;
 }
-#card{
+
+#card {
   border: none;
   font-size: 4vw;
 }
