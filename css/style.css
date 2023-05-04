@@ -75,6 +75,10 @@ body {
   font-size: 3vw;
 }
 
+.project-heading span {
+  font-size: 8vw;
+}
+
 #navbar {
   height: 10vw;
   font-size: 3vw;
@@ -102,7 +106,7 @@ body {
   }
 
   .blank {
-    height: max-content;
+    height: 90vh;
   }
 
   .container-sub-1 {
@@ -141,6 +145,19 @@ body {
     font-size: 4vw;
   }
 
+  .contact span {
+    font-size: 3vw;
+  }
+
+  .contact p {
+    font-size: 1vw;
+  }
+
+  .social-list svg {
+    width: 1vw;
+    height: 1vw;
+  }
+
   .skill-list {
     margin-top: 5vw;
   }
@@ -162,7 +179,12 @@ body {
   }
 
   .progress-bar {
-    font-size: 3vw;
+    font-size: 1vw;
+  }
+
+  .project-heading span {
+    font-size: 4vw;
+    margin-top: 100px;
   }
 
   #navbar {

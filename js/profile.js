@@ -42,9 +42,16 @@ function animationBar(element, value) {
 
 function mediaScreen(x) {
   let navbar = document.getElementById('navbar');
+  let divBlank = document.getElementById('blank');
+  let divSkillList = document.getElementById('skill-list');
+  let divContact = document.getElementById('contact');
   if (x.matches) {
     navbar.classList.remove('justify-content-center');
     navbar.classList.add('justify-content-end');
+    divBlank.classList.add('d-flex');
+    divBlank.classList.add('justify-content-evenly');
+    divSkillList.style.marginTop = 0;
+    divSkillList.classList.add('my-4');
   }
 }
 var screenWidth = window.matchMedia('(min-width: 1280px)');
