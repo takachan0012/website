@@ -13,6 +13,10 @@ body {
   font-family: 'Red Hat Text', Arial;
 }
 
+.blank {
+  height: 100vh;
+}
+
 .container-sub-1 {
   font-size: 4vw;
   text-align: center;
@@ -21,12 +25,15 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  /*align-items: center;*/
   justify-content: center;
   background-image: url(../images/bg-3.jpeg);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
+}
+
+#heading span {
+  font-size: 10vw;
 }
 
 .container-sub-2 {
@@ -43,6 +50,10 @@ body {
   font-size: 10vw;
 }
 
+.skill-list {
+  margin-top: 10vw;
+}
+
 .skill-list h1 {
   font-size: 8vw;
 }
@@ -54,6 +65,10 @@ body {
 .skill-bar a,
 .contact p {
   font-size: 4vw;
+}
+
+.progress {
+  height: 3w;
 }
 
 .progress-bar {
@@ -68,4 +83,98 @@ body {
 #card {
   border: none;
   font-size: 4vw;
+}
+
+@media (min-width: 1280px) {
+  @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap');
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  :root {
+    --color: #333;
+  }
+
+  body {
+    font-family: 'Red Hat Text', Arial;
+  }
+
+  .blank {
+    height: max-content;
+  }
+
+  .container-sub-1 {
+    font-size: 4vw;
+    text-align: center;
+    color: var(--color);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../images/bg-2.jpeg);
+    background-size: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+
+  #heading span {
+    font-size: 5vw;
+  }
+
+  #social a {
+    font-size: 2vw;
+  }
+
+  .container-sub-2 {
+    background-image: url(../images/bg-2.jpeg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .introduction span {
+    font-size: 4vw;
+  }
+
+  .skill-list {
+    margin-top: 5vw;
+  }
+
+  .skill-list h1 {
+    font-size: 3vw;
+  }
+
+  .skill-bar {
+    margin-top: 2vw;
+  }
+
+  .skill-bar a {
+    font-size: 2vw;
+  }
+
+  .progress {
+    height: 1vw;
+  }
+
+  .progress-bar {
+    font-size: 3vw;
+  }
+
+  #navbar {
+    height: 50px;
+    font-size: 20px;
+    position: fixed;
+    top: 0;
+    background-color: black;
+  }
+
+  #card {
+    border: none;
+    font-size: 4vw;
+  }
 }
